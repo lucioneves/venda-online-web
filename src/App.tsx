@@ -30,8 +30,7 @@ function App() {
 }
 
 const StyledLink = styled.div`
-color: blue;
+  color: blue;
   font-size: 20px;
 `;
 export default App;
-
