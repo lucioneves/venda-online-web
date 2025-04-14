@@ -1,4 +1,10 @@
-import { BackgroundImage, ContainerLogin, ContainerLoginScreen, LimiteContainer, LogoImage } from '../styles/LoginScreen.styles';
+import {
+  BackgroundImage,
+  ContainerLogin,
+  ContainerLoginScreen,
+  LimiteContainer,
+  LogoImage,
+} from '../styles/LoginScreen.styles';
 
 const LoginScreen = () => {
   return (
@@ -7,7 +13,7 @@ const LoginScreen = () => {
       <ContainerLogin>
         <LimiteContainer>
           <LogoImage src="./logo.png" />
-        </LimiteContainer>        
+        </LimiteContainer>
       </ContainerLogin>
     </ContainerLoginScreen>
   );
