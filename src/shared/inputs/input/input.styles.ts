@@ -1,8 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const BoxInput = styled.div`
-
-`;
+export const BoxInput = styled.div``;
 
 export const TitleInput = styled.h3`
   font-family: 'Poppins';
@@ -11,5 +9,4 @@ export const TitleInput = styled.h3`
   margin: 8px;
   font-size: 1.5rem;
   font-weight: 500;
-  
 `;
