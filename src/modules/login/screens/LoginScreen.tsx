@@ -20,7 +20,7 @@ const LoginScreen = () => {
 
   const handlePassword = (e: React.ChangeEvent<HTMLInputElement>) => {
     setPassword(e.target.value);
-  }
+  };
   const handleLogin = () => {
     alert(`Username: ${username}, Password: ${password}`);
   };
@@ -33,8 +33,8 @@ const LoginScreen = () => {
           <TitleLogin level={2} style={{ color: '#006397' }}>
             LOGIN
           </TitleLogin>
-          <Input title="USUÁRIO" margin='32px 0px 0px' onChange={handleUsername} value={username} />
-          <Input type='password' title="SENHA" margin='32px 0px 0px' onChange={handlePassword} />
+          <Input title="USUÁRIO" margin="32px 0px 0px" onChange={handleUsername} value={username} />
+          <Input type="password" title="SENHA" margin="32px 0px 0px" onChange={handlePassword} />
           <Button type="primary" margin="64px 0px 16px 0px" onClick={handleLogin}>
             ENTRAR
           </Button>
